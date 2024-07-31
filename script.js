@@ -3,7 +3,7 @@ for(const elm of document.getElementsByClassName("load")){
     const table=document.createElement("table");
     for(const line of text.split("\n")){
       const tr=document.createElement("tr");
-      for(const data of line.split("\n")){
+      for(const data of line.split(",")){
         const td=document.createElement("td");
         td.textContent=data;
         tr.append(td);
