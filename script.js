@@ -6,7 +6,7 @@ for(const elm of document.getElementsByClassName("load")){
       const ol=document.createElement("ol");
       li.append(ol);
       for(const data of line.split(",")){
-        const lili=document.createElement("lili");
+        const lili=document.createElement("li");
         ol.append(lili);
         lili.textContent=data;
       }
