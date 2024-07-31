@@ -14,3 +14,7 @@ li>ol{
   display:flex;
   flex-direction:row;
 }
+
+li>ol>li{
+  box-shadow:none;
+}
