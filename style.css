@@ -1,8 +1,14 @@
-table{
-  border-spacing: 2em 1em;
+ol{
+  display:flex;
+  flex-direction:column;
 }
 
-tr{
+li{
   border-radius:1em;
   box-shadow:1em 1em 1em;
+}
+
+li>ol{
+  display:flex;
+  flex-direction:row;
 }
