@@ -4,8 +4,10 @@ ol{
 }
 
 li{
+  margin:1em;
   border-radius:1em;
   box-shadow:1em 1em 1em;
+  list-style-type:none;
 }
 
 li>ol{
