@@ -1,5 +1,5 @@
 for(const elm of document.getElementsByClassName("load")){
-  fetch(elm.dataset.href).text().then(text=>{
+  fetch(elm.dataset.href).then(res=>res.text()).then(text=>{
     table=document.createElement("table");
     for(const line of text.split("\n")){
       const tr=document.createElement("tr");
