@@ -11,5 +11,5 @@ for(const elm of document.getElementsByClassName("load")){
       table.append(tr);
     }
     elm.append(table);
-  }
+  });
 }
