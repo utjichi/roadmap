@@ -1,3 +1,12 @@
+:root {
+  --row-shadow-offset-x: 16px;
+  --row-shadow-offset-y: 8px;
+}
+
+body{
+  background:whitesmoke;
+}
+
 ol{
   display:flex;
   flex-direction:column;
@@ -6,7 +15,9 @@ ol{
 li{
   margin:1em;
   border-radius:1em;
-  box-shadow:1em 1em 1em;
+  box-shadow:
+    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-offset-y) #ebebeb,
+    -var(--row-shadow-offset-x) -var(--row-shadow-offset-y) var(--row-shadow-offset-y) #white;
   list-style-type:none;
 }
 
