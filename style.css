@@ -31,4 +31,5 @@ li>ol>li{
   flex:1;
   box-shadow:none;
   text-align: center;
+  vertical-align: middle;
 }
