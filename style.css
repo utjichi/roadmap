@@ -1,7 +1,7 @@
 :root {
-  --row-shadow-offset-x: 16px;
-  --row-shadow-offset-y: 16px;
-  --row-shadow-blur:32px;
+  --row-shadow-offset-x: 8px;
+  --row-shadow-offset-y: 8px;
+  --row-shadow-blur:24px;
 }
 
 body{
@@ -14,7 +14,7 @@ ol{
 }
 
 li{
-  margin:32px;
+  margin:12px;
   border-radius:1em;
   box-shadow:
     var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-blur) #bbbbbb,
@@ -29,6 +29,6 @@ li>ol{
 
 li>ol>li{
   flex:1;
-  margin:0;
   box-shadow:none;
+  text-align: center;
 }
