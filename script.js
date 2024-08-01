@@ -1,7 +1,7 @@
 for(const elm of document.getElementsByClassName("load")){
   fetch(elm.dataset.href).then(res=>res.text()).then(text=>{
     for(const line of text.split("\n")){
-      if(!li)continue;
+      if(!line)continue;
       const li=document.createElement("li");
       elm.append(li);
       const ol=document.createElement("ol");
