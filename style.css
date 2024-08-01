@@ -29,5 +29,7 @@ body{
 
 .data{
   flex:1;
+  margin:12px;
   box-shadow:none;
+  list-style-type:none;
 }
