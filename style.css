@@ -4,7 +4,7 @@
 }
 
 body{
-  background:#efefef;
+  background:#dddddd;
 }
 
 ol{
@@ -16,8 +16,8 @@ li{
   margin:1em;
   border-radius:1em;
   box-shadow:
-    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-offset-y) #dfdfdf,
-    calc(-var(--row-shadow-offset-x)) calc(-var(--row-shadow-offset-y)) var(--row-shadow-offset-y) #ffffff;
+    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-offset-y) #bbbbbb,
+    calc(0px - var(--row-shadow-offset-x)) calc(0px - var(--row-shadow-offset-y)) var(--row-shadow-offset-y) #ffffff;
   list-style-type:none;
 }
 
