@@ -17,7 +17,7 @@ li{
   border-radius:1em;
   box-shadow:
     var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-offset-y) #dfdfdf,
-    -var(--row-shadow-offset-x) -var(--row-shadow-offset-y) var(--row-shadow-offset-y) #ffffff;
+    calc(-var(--row-shadow-offset-x)) calc(-var(--row-shadow-offset-y)) var(--row-shadow-offset-y) #ffffff;
   list-style-type:none;
 }
 
