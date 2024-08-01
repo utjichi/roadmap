@@ -4,7 +4,7 @@
 }
 
 body{
-  background:whitesmoke;
+  background:#efefef;
 }
 
 ol{
@@ -16,8 +16,8 @@ li{
   margin:1em;
   border-radius:1em;
   box-shadow:
-    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-offset-y) #ebebeb,
-    -var(--row-shadow-offset-x) -var(--row-shadow-offset-y) var(--row-shadow-offset-y) #white;
+    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-offset-y) #dfdfdf,
+    -var(--row-shadow-offset-x) -var(--row-shadow-offset-y) var(--row-shadow-offset-y) #ffffff;
   list-style-type:none;
 }
 
@@ -27,6 +27,6 @@ li>ol{
 }
 
 li>ol>li{
-  width:16em;
+  flex:1;
   box-shadow:none;
 }
