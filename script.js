@@ -2,6 +2,7 @@ for(const elm of document.getElementsByTagName("main")){
   fetch(`/data/${location.search||"roadmap"}.csv`).then(res=>res.text()).then(text=>{
     const table=document.createElement("ol");
     elm.append(table);
+    table.className="table";
     for(const line of text.split("\n")){
       if(!line)continue;
       const li=document.createElement("li");
