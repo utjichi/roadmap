@@ -1,6 +1,7 @@
 :root {
   --row-shadow-offset-x: 16px;
-  --row-shadow-offset-y: 8px;
+  --row-shadow-offset-y: 16px;
+  --row-shadow-blur:32px;
 }
 
 body{
@@ -13,11 +14,11 @@ ol{
 }
 
 li{
-  margin:1em;
+  margin:32px;
   border-radius:1em;
   box-shadow:
-    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-offset-y) #bbbbbb,
-    calc(0px - var(--row-shadow-offset-x)) calc(0px - var(--row-shadow-offset-y)) var(--row-shadow-offset-y) #ffffff;
+    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-blur) #bbbbbb,
+    calc(0px - var(--row-shadow-offset-x)) calc(0px - var(--row-shadow-offset-y)) var(--row-shadow-blur) #ffffff;
   list-style-type:none;
 }
 
@@ -28,5 +29,6 @@ li>ol{
 
 li>ol>li{
   flex:1;
+  margin:0;
   box-shadow:none;
 }
