@@ -8,12 +8,12 @@ body{
   background:#dddddd;
 }
 
-ol{
+.table{
   display:flex;
   flex-direction:column;
 }
 
-li{
+.bar{
   margin:12px;
   border-radius:1em;
   box-shadow:
@@ -22,12 +22,12 @@ li{
   list-style-type:none;
 }
 
-li>ol{
+.row{
   display:flex;
   flex-direction:row;
 }
 
-li>ol>li{
+.data{
   flex:1;
   box-shadow:none;
 }
