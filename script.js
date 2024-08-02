@@ -5,13 +5,17 @@ for(const elm of document.getElementsByTagName("main")){
     table.className="table";
     for(const line of text.split("\n")){
       if(!line)continue;
+      const cells=line.split(",");
+      const a=document.createElement("a");
+      table.append(a);
+      a.href=`?${cells[0]}`;
       const li=document.createElement("li");
-      table.append(li);
+      a.append(li);
       li.className="bar";
       const ol=document.createElement("ol");
       li.append(ol);
       ol.className="row";
-      for(const data of line.split(",")){
+      for(const data of cells.slice(1)){
         const lili=document.createElement("li");
         ol.append(lili);
         lili.textContent=data;
