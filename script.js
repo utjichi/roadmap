@@ -18,7 +18,7 @@ for(const elm of document.getElementsByTagName("main")){
       for(const data of cells.slice(1)){
         const lili=document.createElement("li");
         ol.append(lili);
-        lili.innerHTML=data.replaceAll(/\((.+?)\)\[(.*?)\]/g,"<a href='$2'>$1</a>");
+        lili.innerHTML=data.replaceAll(/\[(.+?)\]\((.*?)\)/g,"<a href='$2'>$1</a>");
         lili.className="data";
       }
     }
