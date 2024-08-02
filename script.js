@@ -1,5 +1,5 @@
 for(const elm of document.getElementsByTagName("main")){
-  fetch(`/roadmap/data/${location.search||"roadmap"}.csv`).then(res=>res.text()).then(text=>{
+  fetch(`/roadmap/data/${(location.search||"?roadmap").slice(1)}.csv`).then(res=>res.text()).then(text=>{
     const table=document.createElement("ol");
     elm.append(table);
     table.className="table";
