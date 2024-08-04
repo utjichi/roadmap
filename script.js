@@ -11,11 +11,11 @@ for(const elm of document.getElementsByTagName("main")){
       a.href=`?${cells[0]}`;
       const li=document.createElement("li");
       a.append(li);
-      li.className="bar";
+      li.classList.add("bar",cells[1]);
       const ol=document.createElement("ol");
       li.append(ol);
       ol.className="row";
-      for(const data of cells.slice(1)){
+      for(const data of cells.slice(2)){
         const lili=document.createElement("li");
         ol.append(lili);
         lili.innerHTML=data.replaceAll(/\[(.+?)\]\((.*?)\)/g,"<a href='$2'>$1</a>");
