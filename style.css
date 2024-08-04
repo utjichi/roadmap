@@ -31,15 +31,15 @@ body{
 }
 
 .todo{
-  background:oklch(var(--bg-l) 0.1 0deg):
+  background:oklch(var(--bg-l) 0.1 0deg);
 }
 
 .doing{
-  background:oklch(var(--bg-l) 0.1 120deg):
+  background:oklch(var(--bg-l) 0.1 120deg);
 }
 
 .done{
-  background:oklch(var(--bg-l) 0.1 240deg):
+  background:oklch(var(--bg-l) 0.1 240deg);
 }
 
 .row{
