@@ -3,7 +3,7 @@
   --bg-c:0.1;
   --row-shadow-offset-x: 8px;
   --row-shadow-offset-y: 8px;
-  --row-shadow-blur:24px;
+  --row-shadow-blur:16px;
 }
 
 body{
