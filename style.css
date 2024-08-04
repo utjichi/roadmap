@@ -6,7 +6,7 @@
 }
 
 body{
-  background:oklch(var(--bg-l),0,none);
+  background:oklch(var(--bg-l) 0 none);
 }
 
 .table{
@@ -24,22 +24,22 @@ body{
   border-radius:1em;
   box-shadow:
     var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-blur)
-            oklch(calc(100% - var(--bg-l) * 2,0,none),
+            oklch(calc(100% - var(--bg-l) * 2 0 none),
     calc(0px - var(--row-shadow-offset-x)) calc(0px - var(--row-shadow-offset-y)) var(--row-shadow-blur)
-            oklch(100%,0,none);
+            oklch(100% 0 none);
   list-style-type:none;
 }
 
 .todo{
-  background:oklch(var(--bg-l),0.1,0deg):
+  background:oklch(var(--bg-l) 0.1 0deg):
 }
 
 .doing{
-  background:oklch(var(--bg-l),0.1,120deg):
+  background:oklch(var(--bg-l) 0.1 120deg):
 }
 
 .done{
-  background:oklch(var(--bg-l),0.1,240deg):
+  background:oklch(var(--bg-l) 0.1 240deg):
 }
 
 .row{
