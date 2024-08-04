@@ -1,6 +1,6 @@
 :root {
   --bg-l:90%;
-  --bg-c:0.02;
+  --bg-c:0.1;
   --row-shadow-offset-x: 8px;
   --row-shadow-offset-y: 8px;
   --row-shadow-blur:24px;
@@ -24,10 +24,7 @@ body{
   margin:12px;
   border-radius:1em;
   box-shadow:
-    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-blur)
-            oklch(calc(100% - var(--bg-l) * 2) 0 none),
-    calc(0px - var(--row-shadow-offset-x)) calc(0px - var(--row-shadow-offset-y)) var(--row-shadow-blur)
-            oklch(100% 0 none);
+    var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-blur) oklch(calc(100% - var(--bg-l) * 2) 0 none);
   list-style-type:none;
 }
 
