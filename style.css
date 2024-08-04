@@ -24,7 +24,7 @@ body{
   border-radius:1em;
   box-shadow:
     var(--row-shadow-offset-x) var(--row-shadow-offset-y) var(--row-shadow-blur)
-            oklch(calc(100% - var(--bg-l) * 2 0 none),
+            oklch(calc(100% - var(--bg-l) * 2 0 none)),
     calc(0px - var(--row-shadow-offset-x)) calc(0px - var(--row-shadow-offset-y)) var(--row-shadow-blur)
             oklch(100% 0 none);
   list-style-type:none;
